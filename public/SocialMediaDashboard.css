@@ -1,0 +1,30 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+.button-container {
+  position: relative; /* Add hover effect if needed */
+}
+
+/* Add hover effects for buttons */
+
+.button:hover {
+  background-color: #444; /* Darker version of the button's original color */
+}
